@@ -1,8 +1,7 @@
 const mongoose = require('mongoose')
-const Schema = mongoose.Schema
-
-mongoose.connect('mongodb://pipoca:leozinho2004@ds247674.mlab.com:47674/xerphos', { useNewUrlParser: true }, (err) => {
-  if (err) return console.log('[DataBase] > Erro ao tentar conectar na DATABASE')
+const Schema = mongoose.Schema;
+mongoose.connect('mongodb://pip004@ds247674.mlab.c74/xerphos', { useNewUrlParser: true }, (err) => {
+  if (err) return console.log('[DataBase] > Erroao tentar conectar na DATABASE')
   console.log('[DataBase] > Conectado com sucesso a DataBase')
 })
 
